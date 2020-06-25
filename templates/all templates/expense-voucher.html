@@ -11,7 +11,7 @@
 
 	<link rel="shortcut icon" href="img/icons/icon-48x48.png" />
 
-	<title>The Paper Project</title>
+	<title>Expense Voucher</title>
 
 	<link href="css/app.css" rel="stylesheet">
 </head>
@@ -229,243 +229,226 @@
 
 					<div class="row mb-2 mb-xl-3">
 						<div class="col-auto d-none d-sm-block">
-							<h3><strong>Analytics</strong> Dashboard</h3>
+							<h3><strong>Expense</strong> Voucher</h3>
 						</div>
 
 						<div class="col-auto ml-auto text-right mt-n1">
 							<nav aria-label="breadcrumb">
 								<ol class="breadcrumb bg-transparent p-0 mt-1 mb-0">
-									<li class="breadcrumb-item"><a href="#">AdminKit</a></li>
-									<li class="breadcrumb-item"><a href="#">Dashboards</a></li>
-									<li class="breadcrumb-item active" aria-current="page">Analytics</li>
+									<li class="breadcrumb-item"><a href="#">Dashboard</a></li>
+									<li class="breadcrumb-item active" aria-current="page">Expense Voucher
+</li>
 								</ol>
 							</nav>
 						</div>
-					</div>
-					<div class="row">
-						<div class="col-xl-6 col-xxl-5 d-flex">
-							<div class="w-100">
-								<div class="row">
-									<div class="col-sm-6">
-										<div class="card">
-											<div class="card-body">
-												<h5 class="card-title mb-4">Sales</h5>
-												<h1 class="display-5 mt-1 mb-3">2.382</h1>
-												<div class="mb-1">
-													<span class="text-danger"> <i class="mdi mdi-arrow-bottom-right"></i> -3.65% </span>
-													<span class="text-muted">Since last week</span>
-												</div>
-											</div>
-										</div>
-										<div class="card">
-											<div class="card-body">
-												<h5 class="card-title mb-4">Visitors</h5>
-												<h1 class="display-5 mt-1 mb-3">14.212</h1>
-												<div class="mb-1">
-													<span class="text-success"> <i class="mdi mdi-arrow-bottom-right"></i> 5.25% </span>
-													<span class="text-muted">Since last week</span>
-												</div>
-											</div>
-										</div>
-									</div>
-									<div class="col-sm-6">
-										<div class="card">
-											<div class="card-body">
-												<h5 class="card-title mb-4">Earnings</h5>
-												<h1 class="display-5 mt-1 mb-3">$21.300</h1>
-												<div class="mb-1">
-													<span class="text-success"> <i class="mdi mdi-arrow-bottom-right"></i> 6.65% </span>
-													<span class="text-muted">Since last week</span>
-												</div>
-											</div>
-										</div>
-										<div class="card">
-											<div class="card-body">
-												<h5 class="card-title mb-4">Orders</h5>
-												<h1 class="display-5 mt-1 mb-3">64</h1>
-												<div class="mb-1">
-													<span class="text-danger"> <i class="mdi mdi-arrow-bottom-right"></i> -2.25% </span>
-													<span class="text-muted">Since last week</span>
-												</div>
-											</div>
-										</div>
-									</div>
+					</div>		
+
+<br>
+
+								<div class="row mb-2 mb-xl-3">
+						<div class="col-auto d-none d-sm-block">
+
+
+							<div class="row">
+								<div class="col-12 col-xl-12">
+<input type="date" name="" class="form-control">
 								</div>
+
+								
 							</div>
+
+
+
+
+						</div>
+						<div class="col-auto d-none d-sm-block">
+
+							<div class="row">
+
+								<div class="col-12 col-xl-12">
+  <button class="btn btn-success">Search</button>
+								</div>
+
+								
+							</div>
+
 						</div>
 
-						<div class="col-xl-6 col-xxl-7">
-							<div class="card flex-fill w-100">
-								<div class="card-header">
 
-									<h5 class="card-title mb-0">Recent Movement</h5>
-								</div>
-								<div class="card-body py-3">
-									<div class="chart chart-sm">
-										<canvas id="chartjs-dashboard-line"></canvas>
-									</div>
-								</div>
-							</div>
+
+
+
+						<div class="col-auto ml-auto text-right mt-n1">
+												<button class="btn btn-outline-success">+ Create New Voucher</button>
+												<button class="btn btn-outline-success">Export</button>
+
 						</div>
 					</div>
 
-					<div class="row">
-						<div class="col-12 col-md-6 col-xxl-3 d-flex order-2 order-xxl-3">
-							<div class="card flex-fill w-100">
+
+									<div class="row">
+		<div class="col-12 col-xl-6">
+							<div class="card">
 								<div class="card-header">
-
-									<h5 class="card-title mb-0">Browser Usage</h5>
+									<h6>&nbsp; </h6>
+									<h6 class="card-subtitle text-muted">Update or delete pre-added vouchers.</h6>
 								</div>
-								<div class="card-body d-flex">
-									<div class="align-self-center w-100">
-										<div class="py-3">
-											<div class="chart chart-xs">
-												<canvas id="chartjs-dashboard-pie"></canvas>
-											</div>
-										</div>
-
-										<table class="table mb-0">
-											<tbody>
-												<tr>
-													<td>Chrome</td>
-													<td class="text-right">4306</td>
-												</tr>
-												<tr>
-													<td>Firefox</td>
-													<td class="text-right">3801</td>
-												</tr>
-												<tr>
-													<td>IE</td>
-													<td class="text-right">1689</td>
-												</tr>
-											</tbody>
-										</table>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-12 col-md-12 col-xxl-6 d-flex order-3 order-xxl-2">
-							<div class="card flex-fill w-100">
-								<div class="card-header">
-
-									<h5 class="card-title mb-0">Real-Time</h5>
-								</div>
-								<div class="card-body px-4">
-									<div id="world_map" style="height:350px;"></div>
-								</div>
-							</div>
-						</div>
-						<div class="col-12 col-md-6 col-xxl-3 d-flex order-1 order-xxl-1">
-							<div class="card flex-fill">
-								<div class="card-header">
-
-									<h5 class="card-title mb-0">Calendar</h5>
-								</div>
-								<div class="card-body d-flex">
-									<div class="align-self-center w-100">
-										<div class="chart">
-											<div id="datetimepicker-dashboard"></div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-
-					<div class="row">
-						<div class="col-12 col-lg-8 col-xxl-9 d-flex">
-							<div class="card flex-fill">
-								<div class="card-header">
-
-									<h5 class="card-title mb-0">Latest Projects</h5>
-								</div>
-								<table class="table table-hover my-0">
+								<table class="table">
 									<thead>
 										<tr>
-											<th>Name</th>
-											<th class="d-none d-xl-table-cell">Start Date</th>
-											<th class="d-none d-xl-table-cell">End Date</th>
-											<th>Status</th>
-											<th class="d-none d-md-table-cell">Assignee</th>
+											<th style="width:10%;">#</th>
+											<th style="width:20%">Voucher No.</th>
+											<th class="d-none d-md-table-cell" style="width:30%">Voucher Date</th>
+											<th style="width:40%;">Amount</th>
 										</tr>
 									</thead>
 									<tbody>
 										<tr>
-											<td>Project Apollo</td>
-											<td class="d-none d-xl-table-cell">01/01/2020</td>
-											<td class="d-none d-xl-table-cell">31/06/2020</td>
-											<td><span class="badge badge-success">Done</span></td>
-											<td class="d-none d-md-table-cell">Vanessa Tucker</td>
+											<td>1</td>
+											<td>864</td>
+											<td class="d-none d-md-table-cell">June 21, 1961</td>
+											<td class="table-action">Rs. 9766 &nbsp;&nbsp;&nbsp;
+												<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>&nbsp;&nbsp;
+												<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+											</td>
+										</tr>
+										<tr class="table-primary">
+											<td>2</td>
+											<td>914</td>
+											<td class="d-none d-md-table-cell">May 15, 1948</td>
+											<td class="table-action">Rs. 2568 &nbsp;&nbsp;&nbsp;
+												<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>&nbsp;&nbsp;
+												<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+											</td>
 										</tr>
 										<tr>
-											<td>Project Fireball</td>
-											<td class="d-none d-xl-table-cell">01/01/2020</td>
-											<td class="d-none d-xl-table-cell">31/06/2020</td>
-											<td><span class="badge badge-danger">Cancelled</span></td>
-											<td class="d-none d-md-table-cell">William Harris</td>
+											<td>3</td>
+											<td>704</td>
+											<td class="d-none d-md-table-cell">September 14, 1965</td>
+											<td class="table-action">Rs. 7514 &nbsp;&nbsp;&nbsp;
+												<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>&nbsp;&nbsp;
+												<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+											</td>
+										</tr>
+										<tr class="table-success">
+											<td>4</td>
+											<td>765</td>
+											<td class="d-none d-md-table-cell">April 2, 1971</td>
+											<td class="table-action">Rs. 4258 &nbsp;&nbsp;&nbsp;
+												<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>&nbsp;&nbsp;
+												<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+											</td>
 										</tr>
 										<tr>
-											<td>Project Hades</td>
-											<td class="d-none d-xl-table-cell">01/01/2020</td>
-											<td class="d-none d-xl-table-cell">31/06/2020</td>
-											<td><span class="badge badge-success">Done</span></td>
-											<td class="d-none d-md-table-cell">Sharon Lessman</td>
-										</tr>
-										<tr>
-											<td>Project Nitro</td>
-											<td class="d-none d-xl-table-cell">01/01/2020</td>
-											<td class="d-none d-xl-table-cell">31/06/2020</td>
-											<td><span class="badge badge-warning">In progress</span></td>
-											<td class="d-none d-md-table-cell">Vanessa Tucker</td>
-										</tr>
-										<tr>
-											<td>Project Phoenix</td>
-											<td class="d-none d-xl-table-cell">01/01/2020</td>
-											<td class="d-none d-xl-table-cell">31/06/2020</td>
-											<td><span class="badge badge-success">Done</span></td>
-											<td class="d-none d-md-table-cell">William Harris</td>
-										</tr>
-										<tr>
-											<td>Project X</td>
-											<td class="d-none d-xl-table-cell">01/01/2020</td>
-											<td class="d-none d-xl-table-cell">31/06/2020</td>
-											<td><span class="badge badge-success">Done</span></td>
-											<td class="d-none d-md-table-cell">Sharon Lessman</td>
-										</tr>
-										<tr>
-											<td>Project Romeo</td>
-											<td class="d-none d-xl-table-cell">01/01/2020</td>
-											<td class="d-none d-xl-table-cell">31/06/2020</td>
-											<td><span class="badge badge-success">Done</span></td>
-											<td class="d-none d-md-table-cell">Christina Mason</td>
-										</tr>
-										<tr>
-											<td>Project Wombat</td>
-											<td class="d-none d-xl-table-cell">01/01/2020</td>
-											<td class="d-none d-xl-table-cell">31/06/2020</td>
-											<td><span class="badge badge-warning">In progress</span></td>
-											<td class="d-none d-md-table-cell">William Harris</td>
+											<td>5</td>
+											<td>202</td>
+											<td class="d-none d-md-table-cell">October 12, 1966</td>
+											<td class="table-action">Rs. 5748 &nbsp;&nbsp;&nbsp;
+												<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>&nbsp;&nbsp;
+												<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+											</td>
 										</tr>
 									</tbody>
 								</table>
 							</div>
 						</div>
-						<div class="col-12 col-lg-4 col-xxl-3 d-flex">
-							<div class="card flex-fill w-100">
-								<div class="card-header">
 
-									<h5 class="card-title mb-0">Monthly Sales</h5>
-								</div>
-								<div class="card-body d-flex w-100">
-									<div class="align-self-center chart chart-lg">
-										<canvas id="chartjs-dashboard-bar"></canvas>
+
+										<div class="col-6">
+							<div class="card">
+								<div class="card-body m-sm-3 m-md-5">
+						
+									<div class="row">
+										<div class="col-md-6">
+											<div class="text-muted">Voucher No.</div>
+											<strong>741</strong>
+										</div>
+										<div class="col-md-6 text-md-right">
+											<div class="text-muted"> Date</div>
+											<strong>October 2, 2018 - 03:45 pm</strong>
+										</div>
 									</div>
+
+									<hr class="my-4" />
+
+									<div class="row mb-4">
+										<div class="col-md-6">
+											<div class="text-muted">HO</div>
+											<strong>
+              XYZ Company
+            </strong>
+											<p>
+												4183 Forest Avenue <br> New York City <br> 10011 <br> USA <br>
+												<a href="#">
+                abc@gmail.com
+              </a>
+											</p>
+										</div>
+										<div class="col-md-6 text-md-right">
+											<div class="text-muted">Bo</div>
+											<strong>
+              
+            </strong>
+											<p>
+												354 Roy Alley <br> Denver <br> 80202 <br> USA <br>
+												<a href="#">
+                info@adminkit.com
+              </a>
+											</p>
+										</div>
+									</div>
+
+									<table class="table table-sm">
+										<thead>
+											<tr>
+												<th>#</th>
+
+												<th>Description</th>
+												<th class="text-right">Amount</th>
+											</tr>
+										</thead>
+										<tbody>
+												
+											<tr><td>1</td>
+												<td>AdminKit Demo Theme Customization</td>
+												<td class="text-right">Rs. 150.00</td>
+											</tr>
+												
+											<tr><td>2</td>
+												<td>Monthly Subscription </td>
+												<td class="text-right">Rs. 25.00</td>
+											</tr>
+												
+											<tr><td>3</td>
+												<td>Additional Service</td>
+												<td class="text-right">Rs. 100.00</td>
+											</tr>
+										
+											<tr>
+												<th>&nbsp;</th>
+												<th>Total </th>
+												<th class="text-right">Rs. 275</th>
+											</tr>
+										</tbody>
+									</table>
+
+									<div class="text-left">
+										<p class="text-sm">
+											<strong>Amount in word:</strong>  Rupees Only
+										</p>
+
+									</div>
+				
 								</div>
 							</div>
 						</div>
-					</div>
+
+									</div>
+
+
 
 				</div>
+
 			</main>
 
 			<footer class="footer">
@@ -473,7 +456,7 @@
 					<div class="row text-muted">
 						<div class="col-6 text-left">
 							<p class="mb-0">
-								<a href="index.html" class="text-muted"><strong>AdminKit Demo</strong></a> &copy;
+								<a href="index.html" class="text-muted"><strong>The Paper Project</strong></a> &copy;
 							</p>
 						</div>
 						<div class="col-6 text-right">
