@@ -125,7 +125,7 @@
 						<a href="https://adminkit.io/pricing" target="_blank" class="btn btn-primary btn-block">Upgrade to Pro</a>
 					</div>
 				</div>
-			</div>
+				</div>
 		</nav>
 
 		<div class="main">
@@ -306,7 +306,7 @@
 
 					<div class="row mb-2 mb-xl-3">
 						<div class="col-auto d-none d-sm-block">
-							<h3><strong>Add</strong> Entry</h3>
+							
 						</div>
 
 						<div class="col-auto ml-auto text-right mt-n1">
@@ -324,9 +324,14 @@
 							<div class="w-100">
 								<div class="row">
 									<div class="col-sm-12">
-										<div class="card">
+										<div class="card" style="border-radius: 20px;">
 											<div class="card-body">
-												<h5 class="card-title mb-12">Please Enter Appropriate Details Below</h5>
+																							<div class="card-header">
+												<h5>Please Enter Appropriate Details Below</h5>
+											</div>
+											<fieldset class="card-body  border border-primary " style="border-radius: 20px; border-color: red;">
+												<legend class="col-md-3" style="color: #296D98;" "padding-right:10px;"><strong>Personal</strong><strong> Details</strong></legend>
+	
 											 <div class="form-row">
 										    <div class="form-group col-md-6">
 										      <label for="inputEmail4">First Name</label>
@@ -336,63 +341,94 @@
 										      <label for="inputPassword4">Last Name</label>
 										      <input type="text" class="form-control" id="inputPassword4" placeholder="Last Name">
 										    </div>
-										  </div>
-										
-	  										  <div class="form-row">
-										    <div class="form-group col-md-4">
-										      <label for="inputCity">Adhar Card Number</label>
-										      <input type="text" class="form-control" id="inputCity" placeholder="Adhar Card Number">
+										    <div class="form-group col-md-6">
+										      <label for="inputPassword4">Contact No.</label>
+										      <input type="number" class="form-control" id="inputPassword4" placeholder="Contact No.">
 										    </div>
-										    <div class="form-group col-md-4">
+										    <div class="form-group col-md-6">
+										      <label for="inputPassword4">Date Of Birth</label>
+										      <input type="date" class="form-control" id="dob" placeholder="Date">
+										    </div>
+										    <div class="form-group col-md-6">
+										      <label for="inputPassword4">Email ID</label>
+										      <input type="text" class="form-control" id="inputPassword4" placeholder="Email ID">
+										    </div>
+										    <div class="form-group col-md-6">
+										      <label for="inputPassword4">Adhar Card Number</label>
+										      <input type="email" class="form-control" id="inputPassword4" placeholder="Adhar Card Number">
+										    </div>
+										    <div class="form-group col-md-6">
 										      <label for="inputCity">Pan Card Number</label>
 										      <input type="text" class="form-control" id="inputCity" placeholder="Pan Card Number">
 										    </div>
-										    <div class="form-group col-md-4">
+										    <div class="form-group col-md-6">
 										      <label for="inputCity">Driving Licence Number</label>
 										      <input type="text" class="form-control" id="inputCity" placeholder="Driving Licence Number">
 										    </div>
-										  </div>
-										
-											 <div class="form-row">
 										    <div class="form-group col-md-6">
-										      <label for="inputEmail4">Email</label>
-										      <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
-										    </div>
-										    <div class="form-group col-md-6">
-										      <label for="inputPassword4">Password</label>
-										      <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
-										    </div>
-										  </div>
-										  <div class="form-group">
-										    <label for="inputAddress">Address</label>
-										    <textarea class="form-control" id="inputAddress" placeholder="1234 Main St" style="height: 150px;"></textarea>
-										  </div>
-										  <div class="form-group">
-										    <label for="inputAddress2">Address 2</label>
-										    <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
-										  </div>
-										  <div class="form-row">
-										    <div class="form-group col-md-6">
-										      <label for="inputCity">City</label>
-										      <input type="text" class="form-control" id="inputCity">
-										    </div>
-										    <div class="form-group col-md-4">
-										      <label for="inputState">State</label>
+										      <label for="inputState">Gender</label>
 										      <select id="inputState" class="form-control">
-										        <option selected>Choose...</option>
+										        <option selected>Male</option>
+										        <option selected>Female</option>
+										        <option selected>Other</option>
 										        <option>...</option>
 										      </select>
 										    </div>
-										    <div class="form-group col-md-2">
-										      <label for="inputZip">Zip</label>
-										      <input type="text" class="form-control" id="inputZip" placeholder="Zip Code">
+										    <div class="form-group col-md-6">
+										      <label for="inputCity">Age</label>
+										      <input type="number" class="form-control" id="inputCity" placeholder="Age">
+										    </div>
+										  <div class="form-group col-md-6">
+										    <label for="inputAddress">Residential Address</label>
+										    <textarea class="form-control" id="inputAddress" placeholder="Residential Address" style="height: 150px;"></textarea>
+										  </div>
+										  <div class="form-group col-md-6">
+										    <label for="inputAddress2">Permanent Address</label>
+										    <textarea type="text" class="form-control" id="inputAddress2" placeholder="Permanent Address" style="height: 150px;"></textarea>
+										  </div>
+										  </div></fieldset>
+										<br>
+
+																					<fieldset class="card-body  border border-primary " style="border-radius: 20px; border-color: red;">
+												<legend class="col-md-2" style="color: #296D98;" "padding-right:10px;"><strong>Work</strong><strong> Details</strong></legend>
+											 <div class="form-row">
+										    <div class="form-group col-md-6">
+										      <label for="inputEmail4">Industry</label>
+										      <input type="text" class="form-control" id="inputEmail4" placeholder="Industry">
+										    </div>
+										    <div class="form-group col-md-6">
+										      <label for="inputPassword4">Experience</label>
+										      <input type="text" class="form-control" id="inputPassword4" placeholder="Experience">
+										    </div>
+										  </div>
+
+  	  										  <div class="form-row">
+										    <div class="form-group col-md-6">
+										      <label for="inputCity">Upload Resume</label>
+										      <input type="file" class="form-control" id="inputCity">
+										    </div>
+										    <div class="form-group col-md-6">
+										      <label for="inputCity">Company</label>
+										      <input type="text" class="form-control" id="inputCity" placeholder="Company">
+										    </div>
+										    <div class="form-group col-md-6">
+										      <label for="inputCity">Company Introduction</label>
+										      <input type="text" class="form-control" id="inputCity" placeholder="Company Introduction">
+										    </div>
+										  
+										    <div class="form-group col-md-6">
+										      <label for="inputCity">Location</label>
+										      <input type="text" class="form-control" id="inputCity">
 										    </div>
 
+
 										  </div>
-										  <br>
+
+										</fieldset>
+											  <br>
 										    <center><button type="button" style="background-color: #222E3C;" class="btn btn-primary btn-lg">Submit</button></center>
 										    <br>
-											</div>
+										</div>
 										</div>
 
 									</div>
